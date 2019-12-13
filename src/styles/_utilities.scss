@@ -1,0 +1,306 @@
+.r- {
+  &shadow-1 {
+    box-shadow: $boxShadow1;
+    transition: box-shadow 0.3s ease-in-out;
+    &:hover {
+      box-shadow: $boxShadow1-hover;
+    }
+  }
+  &shadow-1 {
+    box-shadow: $boxShadow1;
+    transition: box-shadow 0.3s ease-in-out;
+    &:hover {
+      box-shadow: $boxShadow1-hover-1;
+    }
+  }
+  &bg {
+    &--brand {
+      &A {
+        background-color: $colorBrandA;
+      }
+      &B {
+        background-color: $colorBrandB;
+      }
+      &C {
+        background-color: $colorBrandC;
+      }
+      &D {
+        background-color: $colorBrandD;
+      }
+      &E {
+        background-color: $colorBrandE;
+      }
+      &F {
+        background-color: $colorBrandF;
+      }
+      &G {
+        background-color: $colorBrandG;
+      }
+      &H {
+        background-color: $colorBrandH;
+      }
+      &I {
+        background-color: $colorBrandK;
+      }
+      &J {
+        background-color: $colorBrandL;
+      }
+    }
+    &--grey {
+      background-color: $colorGrey3;
+    }
+    &--yellow {
+      background-color: $yellow1;
+    }
+    &--skylight {
+      background-color: $skylight;
+    }
+
+    
+    &--grey-1 {
+      background-color: $colorGrey1;
+    }
+    &--grey-2{
+      background-color: $colorGrey2;
+    }
+    &--grey-3{
+      background-color: $colorGrey3;
+    }
+    &--grey-4{
+      background-color: $colorGrey4;
+    }
+    &--grey-5 {
+      background-color: $colorGrey5;
+    }
+    &--light {
+      background-color: $colorLight;
+    }
+    &--blue-2 {
+      background-color: $blue2;
+    }
+    &--blue-1 {
+      background-color: $blue1;
+    }
+    &--dark {
+      background-color: $colorDark;
+    }
+    &--blue-3{
+      background-color: $blue3;
+    }
+    &--hightlight-error {
+      background-color: $colorHighlightError;
+    }
+    &--transparent {
+      background-color: transparent;
+    }
+  }
+  &text {
+    &--red-1{
+    color: $colorRed;
+    }
+    &--skyblue{
+      color: $skyblue;
+    }
+    &--green-1{
+      color: $green1;
+    }
+
+    &--grey {
+      color: $colorGrey5;
+    }
+    &--grey-1 {
+      color: $colorGrey1;
+    }
+    &--grey-2{
+      color:$colorGrey2;
+    }
+    &--grey-3{
+      color:$colorGrey3;
+    }
+    &--grey-4 {
+      color: $colorGrey4;
+    }
+
+    &--grey-5 {
+      color: $colorGrey5;
+    }
+    &--grey-6 {
+      color: $colorGrey6;
+    }
+    &--grey-7 {
+      color: $colorGrey7;
+    }
+    &--grey-8 {
+      color: $colorGrey8;
+    }
+
+    &--light {
+      color: $colorLight;
+    }
+    &--dark {
+      color: $colorDark;
+    }
+    &--blue-3 {
+      color: $blue3;
+    }
+    &--blue-4 {
+      color: $blue4;
+    }
+    &--brandA {
+      color: $colorBrandA;
+    }
+    &--brandB {
+      color: $colorBrandB;
+    }
+    &--brandC {
+      color: $colorBrandC;
+    }
+    &--brandD {
+      color: $colorBrandD;
+    }
+    &--brandE {
+      color: $colorBrandE;
+    }
+    &--brandF {
+      color: $colorBrandF;
+    }
+    &--brandG {
+      color: $colorBrandG;
+    }
+    &--brandI {
+      color: $colorBrandI;
+    }
+    &--sm {
+      font-size: 1.2rem;
+    }
+    &--md {
+      font-size: 1.4rem;
+    }
+    &--lg {
+      font-size: 1.6rem;
+    }
+  }
+  &transition {
+    &--all {
+      transition: all 0.3s ease-in-out;
+    }
+    &--margin {
+      transition: margin 0.3s ease-in-out;
+    }
+  }
+  &progress {
+    border: 1px solid $colorGrey3;
+    height: 16px;
+    border-radius: 8px;
+    background-color: $colorLight;
+    padding: 1px;
+    .progress-bar {
+      border-radius: 6px;
+    }
+  }
+  &card {
+    box-shadow: 0 0 6px 1px rgba($color: $colorDark, $alpha: 0.05);
+    border-radius: 3px;
+    padding: 20px 15px;
+    border: 0.5px solid rgba($color: $blue5, $alpha: 0.19);
+  }
+  &pointer{
+    cursor : pointer;
+  }
+}
+.fi {
+  &-abs {
+    padding-left: 20px;
+    position: relative;
+    &::before {
+      position: absolute;
+      left: 0;
+      line-height: inherit;
+    }
+  }
+}
+
+.rotate {
+  &--90 {
+    transform: rotate(90deg);
+  }
+  &--45 {
+    transform: rotate(45deg);
+  }
+}
+
+.r-radius-- {
+  @each $radius in $borderRadius {
+    &#{nth($radius,1)} {
+      border-radius: #{nth($radius, 2)};
+    }
+  }
+}
+.flaticon-arrow-q:before {
+  content: "\f121";
+  transform: rotate(90deg);
+}
+
+.flaticon-arrow-up:before {
+  content: "\f121";
+  transform: rotate(-90deg);
+}
+
+.flaticon-arrow-side:before {
+  content: "\f121";
+  transform: rotate(180deg);
+}
+.flaticon-arrow-side-2:before {
+  content: "\f121";
+  transform: rotate(0deg);
+}
+
+.flaticon-plus-3:before {
+  content: "\f120";
+transform: rotate(45deg);
+}
+.selectable{
+  cursor: pointer;
+}
+
+.input-icon{
+  position: relative;
+  i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+.center{
+  &-xy{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.zIndex {
+  &--max {
+    z-index: 999999;
+  }
+}
+
+.scroll-x{
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  &::-webkit-scrollbar:vertical {
+    width: 10px;
+  }
+  &::-webkit-scrollbar:horizontal {
+    height: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can’t be transparent */
+    background-color: rgba(0, 0, 0, .5);
+  }
+}

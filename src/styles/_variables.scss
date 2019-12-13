@@ -1,0 +1,86 @@
+// Colors
+
+$primary: #000000;
+$bgCVBuilder: #ffffff;
+$bgCV: #ffffff;
+$bgCVToolbar: #ffffff;
+
+$textLight: #ffffff;
+$blue: #007bff;
+$green1:#12C935;
+$skyblue: #42e2f4;
+
+// Brand Colors
+
+$colorBrandA: #35a2a2;
+$colorBrandB: #ef0065;
+$colorBrandC: #012060;
+$colorBrandD: #14c424;
+$colorBrandE: #ffcc33;
+$colorBrandF: #fa3709;
+$colorBrandG: #339999;
+$colorBrandH: #aae3b0;
+$colorBrandI: #0066cc;
+$colorBrandJ: #6600cc;
+$colorBrandK: #e81f1f;
+$colorBrandL: #21a533;
+$colorError: #ED3838;
+$colorHighlightError:  #fecbbf;
+// Blue Shades
+$blue1: #ebf3fb;
+$blue2: #cee2f5;
+$blue3: #0066cc;
+$blue4: #339999;
+$blue5: #a9afd1;
+
+//yellow shades
+$yellow1: #f4d742;
+
+//skylight shades
+
+$skylight: #4dd2ea;
+
+// red Shades
+$colorRed: #FF2A2A;
+
+// Contrast colors
+$colorDark: #000000;
+$colorLight: #ffffff;
+$colorGrey1: #f5f5f5;
+$colorGrey2: #f0f0f0;
+$colorGrey3: #d6d6d6;
+$colorGrey4: #707070;
+$colorGrey5: #2e2c2c;
+$colorGrey6: #363636;
+$colorGrey7: #0c0c0c;
+$colorGrey8: #464646;
+$colorGrey9: #e5e5e5;
+
+// Font Variables
+$fontHeading: "Poppins", sans-serif;
+$fontBody: "Roboto", sans-serif;
+
+$headingLevels: (
+  ("heading-1", 3.6rem, 700),
+  ("heading-2", 3.6rem, 500),
+  ("heading-3", 1.8rem, 600),
+  ("heading-4", 1.6rem, 600),
+  ("heading-5", 1.4rem, 700),
+  ("heading-6", 1.4rem, 600),
+  ("heading-7", 1.2rem, 600),
+  ("subheading-1", 2.4rem, 500),
+  ("subheading-2", 1.6rem, 500),
+  ("subheading-3", 1.4rem, 500),
+  ("subheading-4", 1.2rem, 500)
+);
+
+$borderRadius: (
+  ("1", 3px),
+  ("2", 6px),
+  ("3", 9px)
+);
+
+// box-shadow
+$boxShadow1: 1px 1px 8px rgba($colorDark, 0.16);
+$boxShadow1-hover: 1px 1px 35px rgba($colorDark, 0.16);
+$boxShadow1-hover-1: 1px 1px 35px rgba($colorDark, 0.25);
